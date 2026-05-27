@@ -112,6 +112,159 @@ The Texas context matters, but the core explanation should not become obsolete i
 ## {.center}
 
 ::: {.visually-hidden}
+Section break: stakeholder review
+:::
+
+::: {.section-break}
+[Stakeholder Review]{.section-kicker}
+[Video Concept and Narrative Arc]{.section-title}
+[A short narrated explainer with Texas bookends and a reusable SGP core.]{.section-subtitle}
+:::
+
+
+## Video Brief for Review
+
+::: {.question-grid}
+
+::: {.question-card}
+[Working title]{.question-label}
+**Understanding Student Growth Percentiles in Texas**
+
+Achievement, growth, and the role of prior administrations.
+:::
+
+::: {.question-card}
+[Audience]{.question-label}
+**Texas district leaders and educators**
+
+Assessment coordinators, TIA leads, principals, instructional leaders, and educators who need a clear non-technical explanation.
+:::
+
+::: {.question-card}
+[Length]{.question-label}
+**Approximately 4 to 6 minutes**
+
+Short enough for back-to-school training, district onboarding, TIA support, or CSM follow-up.
+:::
+
+::: {.question-card}
+[Production style]{.question-label}
+**Polished narrated explainer**
+
+Friendly graphics, simple motion, clean narration, minimal notation, and no webinar feel.
+:::
+
+:::
+
+::: {.notes}
+This slide is for stakeholder alignment. The working title can change, but the intended audience, length, and production style should be agreed on before scripting.
+:::
+
+
+## Core Communication Goal
+
+:::: {.columns}
+
+::: {.column width="56%"}
+
+**The video should leave Texas users with two durable ideas.**
+
+- SGP compares students to academically similar peers.
+- SGP is not a reward or penalty for being high- or low-achieving.
+- The additional prior administration helps make fall-to-spring growth comparisons fairer.
+
+:::
+
+::: {.column width="44%"}
+
+::: {.key-insight}
+**Stakeholder check**
+
+Does this goal match the explanation Texas users most need before they trust and use SGP results?
+:::
+
+:::
+
+::::
+
+::: {.warm-box}
+**Core message:** SGP is designed to compare students with similar achievement histories, and prior administrations help make that comparison more stable and fair.
+:::
+
+
+## Narrative Arc
+
+::: {.arc-grid}
+
+::: {.arc-card}
+[1]{.arc-number}
+**Open in Texas**
+
+Name the TIA context and acknowledge why educators are asking how SGP works.
+:::
+
+::: {.arc-card}
+[2]{.arc-number}
+**Separate achievement from growth**
+
+Clarify that achievement is where a student is; growth is progress compared with academic peers.
+:::
+
+::: {.arc-card}
+[3]{.arc-number}
+**Explain prior administrations**
+
+Use the prior spring -> fall -> current spring timeline to show why additional context improves fairness.
+:::
+
+::: {.arc-card}
+[4]{.arc-number}
+**Close carefully**
+
+Return to Texas, reinforce defensible interpretation, and avoid overpromising approval or validation outcomes.
+:::
+
+:::
+
+::: {.notes}
+This mirrors the source recommendation: Texas/TIA opening bookend, reusable SGP explainer core, and Texas/TIA closing bookend.
+:::
+
+
+## Review Questions for Stakeholders
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**Content fit**
+
+- Are these the right two user questions?
+- Is the Texas/TIA framing specific enough without becoming too policy-dependent?
+- Is the grade-equivalent caution worth including in the main video?
+
+:::
+
+::: {.column width="50%"}
+
+**Production fit**
+
+- Does 4 to 6 minutes feel right for the audience?
+- Should the visual tone be more training-oriented or more public-facing?
+- What language needs approval before narration is recorded?
+
+:::
+
+::::
+
+::: {.caution-box}
+**Decision point:** Align on the video brief and narrative arc before polishing the script or producing animated visuals.
+:::
+
+
+## {.center}
+
+::: {.visually-hidden}
 Section break: achievement and growth
 :::
 
@@ -146,21 +299,19 @@ Growth describes progress over time, interpreted against an appropriate comparis
 
 ::: {.column width="55%"}
 
-::: {.scale-visual}
-::: {.scale-axis}
-<span>High</span>
-<span>Middle</span>
-<span>Low</span>
-:::
-::: {.scale-panel}
-<div class="scale-point high-short"></div>
-<div class="scale-point high-peer"></div>
-<div class="scale-point low-long"></div>
-:::
+::: {.achievement-snapshot}
+<div class="snapshot-label">Achievement snapshot</div>
+<div class="scoreline" aria-label="Achievement scale from lower achievement to higher achievement">
+  <span class="scoreline-end low">Lower achievement</span>
+  <span class="scoreline-end high">Higher achievement</span>
+  <span class="score-marker middle"><span>Student B</span></span>
+  <span class="score-marker high"><span>Student A</span></span>
+</div>
+<p class="snapshot-caption">Achievement locates each student on the score scale at one administration.</p>
 :::
 
 ::: {.key-insight}
-**A high achievement score tells us where a student is.** It does not, by itself, tell us how much the student grew compared with similar students.
+**A high achievement score tells us where a student is right now.** It does not, by itself, show how much the student grew compared with similar students.
 :::
 
 :::
