@@ -1,0 +1,577 @@
+---
+pagetitle: "Understanding Student Growth Percentiles in Texas"
+format:
+  revealjs:
+    theme: [default, styles/presentation-theme.scss]
+    slide-number: true
+    transition: fade
+    transition-speed: fast
+    width: 1920
+    height: 1080
+    margin: 0.06
+    center: false
+    hash: true
+    history: true
+    controls: true
+    progress: true
+    fig-align: center
+    embed-resources: true
+execute:
+  echo: false
+  warning: false
+---
+
+## {.center}
+
+::: {.visually-hidden}
+Title slide
+:::
+
+::: {.title-slide-custom}
+
+[Texas SGP Explainer]{.title-kicker}
+
+[Understanding Student Growth Percentiles in Texas]{.title-main}
+
+[Achievement, growth, and the role of prior administrations]{.title-subtitle}
+
+**Damian W. Betebenner**<br>
+National Center for the Improvement of Educational Assessment<br>
+<dbetebenner@nciea.org>
+
+[Renaissance Texas SGP Conversations]{.conference-badge style="display: block; margin-top: 1.25em;"}
+
+:::
+
+::: {.notes}
+This deck is designed as a short narrated explainer for Texas users. It is not a technical model lecture. The goal is to give educators and district leaders a clear way to understand two recurring questions about SGP.
+:::
+
+
+## The Two Questions
+
+::: {.question-grid}
+
+::: {.question-card}
+[Question 1]{.question-label}
+**How can a high-performing student have an SGP below 50?**
+
+The short answer: achievement and growth are related, but they are not the same thing.
+:::
+
+::: {.question-card}
+[Question 2]{.question-label}
+**Why does the calculation use an additional prior administration?**
+
+The short answer: more history helps make the comparison fairer and more stable.
+:::
+
+:::
+
+::: {.key-insight}
+**SGP is a relative growth measure.** It asks how much a student grew compared with students who had similar prior achievement histories.
+:::
+
+::: {.notes}
+Open by normalizing the questions. These are reasonable questions because SGP is often a behind-the-scenes calculation, and users want confidence that it is doing something fair.
+:::
+
+
+## Why This Matters in Texas
+
+:::: {.columns}
+
+::: {.column width="54%"}
+
+**Texas users need a clear, non-technical explanation.**
+
+- SGP is receiving closer attention because it can be used as a growth component in TIA-related conversations.
+- District leaders want to know whether the calculation is fair.
+- Educators need language that separates student achievement status from student growth.
+- The explanation should be durable beyond one specific policy moment.
+
+:::
+
+::: {.column width="46%"}
+
+::: {.warm-box}
+**Texas bookends, reusable core.**
+
+The opening and closing can speak directly to Texas and TIA. The middle should be a reusable SGP explanation that stands on its own.
+:::
+
+:::
+
+::::
+
+::: {.notes}
+The Texas context matters, but the core explanation should not become obsolete if a policy detail changes. The deck uses Texas as the frame and SGP interpretation as the center.
+:::
+
+
+## {.center}
+
+::: {.visually-hidden}
+Section break: achievement and growth
+:::
+
+::: {.section-break}
+[Core Idea]{.section-kicker}
+[Achievement and Growth Are Different]{.section-title}
+[An achievement score tells us where a student is. An SGP tells us how growth compares with academic peers.]{.section-subtitle}
+:::
+
+
+## Achievement Answers "Where?"
+
+:::: {.columns}
+
+::: {.column width="45%"}
+
+::: {.measure-card}
+[Achievement]{.measure-label}
+[Where is the student now?]{.measure-question}
+
+Achievement describes a student's performance at a point in time.
+:::
+
+::: {.measure-card}
+[Growth]{.measure-label}
+[How much progress was made?]{.measure-question}
+
+Growth describes progress over time, interpreted against an appropriate comparison group.
+:::
+
+:::
+
+::: {.column width="55%"}
+
+::: {.scale-visual}
+::: {.scale-axis}
+<span>High</span>
+<span>Middle</span>
+<span>Low</span>
+:::
+::: {.scale-panel}
+<div class="scale-point high-short"></div>
+<div class="scale-point high-peer"></div>
+<div class="scale-point low-long"></div>
+:::
+:::
+
+::: {.key-insight}
+**A high achievement score tells us where a student is.** It does not, by itself, tell us how much the student grew compared with similar students.
+:::
+
+:::
+
+::::
+
+
+## Growth Answers "Compared With Whom?"
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**SGP compares students to academic peers.**
+
+- Peers are students with similar prior achievement histories.
+- The comparison is not simply "who has the highest score?"
+- The comparison is "who grew more, given where students started?"
+
+::: {.key-insight}
+**SGP does not ask whether a student is high or low performing.** It asks how much the student grew compared with students with a similar achievement history.
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.peer-grid}
+::: {.peer-card}
+**Lower prior achievement**
+
+<div class="peer-band" aria-label="Students grouped by lower prior achievement">
+<span class="student-dot muted"></span>
+<span class="student-dot"></span>
+<span class="student-dot warm"></span>
+</div>
+:::
+
+::: {.peer-card}
+**Middle prior achievement**
+
+<div class="peer-band" aria-label="Students grouped by middle prior achievement">
+<span class="student-dot"></span>
+<span class="student-dot warm"></span>
+<span class="student-dot muted"></span>
+</div>
+:::
+
+::: {.peer-card}
+**Higher prior achievement**
+
+<div class="peer-band" aria-label="Students grouped by higher prior achievement">
+<span class="student-dot warm"></span>
+<span class="student-dot"></span>
+<span class="student-dot muted"></span>
+</div>
+:::
+:::
+
+:::
+
+::::
+
+
+## SGP Runs From 1 to 99 for All Students
+
+::: {.takeaway-grid}
+
+::: {.takeaway-card}
+[1-34]{.big-number}
+**Lower relative growth**
+
+Lower than many academic peers with similar prior achievement.
+:::
+
+::: {.takeaway-card}
+[35-65]{.big-number}
+**Typical relative growth**
+
+Near the middle of the academic peer comparison group.
+:::
+
+::: {.takeaway-card}
+[66-99]{.big-number}
+**Higher relative growth**
+
+Higher than many academic peers with similar prior achievement.
+:::
+
+:::
+
+::: {.key-insight}
+**A useful growth measure gives students at every achievement level the opportunity to show low, typical, or high growth.**
+:::
+
+
+## High Performing, Lower Relative Growth
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**A student can remain high-achieving and still have an SGP below 50.**
+
+- The student is still performing at a high level.
+- The SGP says growth was lower than the median growth of academic peers.
+- That is a comparison statement, not a statement that the student is low-achieving.
+
+:::
+
+::: {.column width="50%"}
+
+::: {.growth-visual}
+<div class="growth-lane" aria-label="Similar high-achieving peers with longer growth">
+  <span class="growth-label">Similar high-achieving peers</span>
+  <span class="growth-arrow long"></span>
+</div>
+<div class="growth-lane" aria-label="High-achieving student with shorter growth">
+  <span class="growth-label">High-achieving student</span>
+  <span class="growth-arrow short"></span>
+</div>
+:::
+
+::: {.warm-box}
+**Plain-language interpretation:** The student is still high-performing, but grew less than similar high-performing students.
+:::
+
+:::
+
+::::
+
+::: {.notes}
+Avoid saying below 50 is simply bad. The clearer statement is that below 50 means below the median growth of students with similar achievement histories.
+:::
+
+
+## Grade Equivalents Can Mislead
+
+:::: {.columns}
+
+::: {.column width="52%"}
+
+**Grade-equivalent changes are not uniform across the scale.**
+
+- A 0.6 grade-equivalent increase can mean different things depending on where a student starts.
+- The same-looking change may be common for one group and uncommon for another.
+- Grade equivalents are a poor substitute for a peer-based growth comparison.
+
+:::
+
+::: {.column width="48%"}
+
+::: {.caution-box}
+**Interpretation caution**
+
+SGP uses comparisons among students with similar achievement histories rather than expecting the same grade-equivalent increase for everyone.
+:::
+
+::: {.source-note}
+Use this slide briefly. The main deck should not get pulled into a detailed grade-equivalent explanation.
+:::
+
+:::
+
+::::
+
+
+## {.center}
+
+::: {.visually-hidden}
+Section break: prior administrations
+:::
+
+::: {.section-break}
+[Fair Comparison]{.section-kicker}
+[Why Prior Administrations Matter]{.section-title}
+[The additional prior is not an extra hurdle. It gives the model more context about the student's achievement history.]{.section-subtitle}
+:::
+
+
+## Fall-to-Spring Timeline
+
+::: {.timeline}
+
+::: {.timeline-step}
+[Prior Spring]{.timeline-date}
+[Additional context before the current year]{.timeline-role}
+:::
+
+::: {.timeline-arrow}
+->
+:::
+
+::: {.timeline-step}
+[Fall]{.timeline-date}
+[Starting point for the current year]{.timeline-role}
+:::
+
+::: {.timeline-arrow}
+->
+:::
+
+::: {.timeline-step}
+[Current Spring]{.timeline-date}
+[Outcome for the current growth period]{.timeline-role}
+:::
+
+:::
+
+::: {.key-insight}
+**Preferred language:** say "additional prior administration," not "third score." The point is the student's achievement history, not an isolated visible score.
+:::
+
+
+## Why the Additional Prior Helps
+
+:::: {.columns}
+
+::: {.column width="53%"}
+
+**The fall score can carry information from outside the current instructional period.**
+
+- Summer learning loss
+- Summer enrichment
+- Tutoring or family resources
+- Unusual prior-year growth patterns
+
+:::
+
+::: {.column width="47%"}
+
+::: {.warm-box}
+**Fairness argument**
+
+The additional prior helps reduce the chance that teachers or schools are advantaged or disadvantaged by patterns that occurred before the current instructional period.
+:::
+
+:::
+
+::::
+
+::: {.notes}
+This is the heart of the Texas explanation. The prior spring score helps distinguish current-year growth from patterns that may have happened before the fall starting point.
+:::
+
+
+## Same Fall Score, Different Histories
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.comparison-card}
+**Student A**
+
+Prior spring was much higher, then fall dropped.
+
+The fall starting point may reflect summer loss or another prior pattern.
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.comparison-card}
+**Student B**
+
+Prior spring and fall were similar.
+
+The fall starting point may reflect a more stable achievement path.
+:::
+
+:::
+
+::::
+
+::: {.key-insight}
+**Two students can have the same fall score but different achievement histories.** The additional prior helps the comparison account for that difference.
+:::
+
+
+## Cleaner, Fairer Interpretation
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**The additional prior is used to improve the quality of the comparison.**
+
+- It does not make high growth impossible.
+- It does not penalize students for having more data.
+- It helps define a more appropriate academic peer group.
+
+:::
+
+::: {.column width="50%"}
+
+::: {.key-insight}
+**Public-facing message**
+
+The additional prior administration is used so that students with similar achievement histories are compared more fairly, and so that educators are not advantaged or disadvantaged by patterns outside the current instructional period.
+:::
+
+:::
+
+::::
+
+
+## Consistent Administration Matters
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**Like any growth measure, SGP depends on valid, comparable data.**
+
+- Testing conditions should be consistent across administrations.
+- Changes in assistance or administration practices can distort apparent growth.
+- Local data practices still matter.
+
+:::
+
+::: {.column width="50%"}
+
+::: {.caution-box}
+**Careful interpretation**
+
+SGP is most meaningful when assessments are administered consistently. Consistent conditions help ensure that growth reflects student learning rather than changes in the testing environment.
+:::
+
+:::
+
+::::
+
+
+## What This Does Not Claim
+
+::: {.takeaway-grid}
+
+::: {.takeaway-card}
+**Not automatic approval**
+
+SGP can support defensible growth evidence, but it does not guarantee approval in any local or state process.
+:::
+
+::: {.takeaway-card}
+**Not a replacement for data quality**
+
+The metric is only as interpretable as the assessment records and administration conditions behind it.
+:::
+
+::: {.takeaway-card}
+**Not just for TIA**
+
+The core explanation is useful for broader district conversations about student progress.
+:::
+
+:::
+
+::: {.notes}
+This slide protects against overclaiming. The goal is to build confidence in SGP interpretation without implying that SGP solves every implementation or validation issue.
+:::
+
+
+## Texas Takeaway
+
+:::: {.columns}
+
+::: {.column width="54%"}
+
+**For Texas educators, the main point is straightforward.**
+
+SGP is not simply another achievement score. It is a growth measure designed to compare students fairly with academic peers.
+
+The use of prior administrations, including an additional prior administration when available, helps make that comparison more stable, more interpretable, and more useful for understanding student progress.
+
+:::
+
+::: {.column width="46%"}
+
+::: {.key-insight}
+**Achievement:** Where is the student?
+
+**Growth:** How much progress did the student make compared with similar students?
+
+**Prior administrations:** What context helps make that comparison fair?
+:::
+
+:::
+
+::::
+
+
+## {.center}
+
+::: {.visually-hidden}
+Closing slide
+:::
+
+::: {.title-slide-custom}
+
+[Understanding Student Growth Percentiles in Texas]{.title-kicker}
+
+[Questions and Discussion]{.title-main}
+
+[Achievement, growth, and fair comparison]{.title-subtitle}
+
+**Damian W. Betebenner**<br>
+National Center for the Improvement of Educational Assessment<br>
+<dbetebenner@nciea.org>
+
+[Renaissance Texas SGP Conversations]{.conference-badge style="display: block; margin-top: 1.25em;"}
+
+:::
