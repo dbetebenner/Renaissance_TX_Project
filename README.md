@@ -1,5 +1,7 @@
 # Renaissance_TX_Project
 
+Part of Damian Betebenner's talks: <https://dbetebenner.github.io/talks/>
+
 Materials associated with Renaissance Texas SGP work.
 
 ## Texas SGP RevealJS Deck
